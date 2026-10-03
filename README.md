@@ -1,4 +1,4 @@
-##Introduction (About the Project):
+##Introduction (About the Project)
 
 
 This is a beginner AWS Cloud project built to develop my practical understanding of AWS services, cloud networking, security, application deployment, and high availability. 
