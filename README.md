@@ -20,3 +20,20 @@ I used some guidance from AI during this part to understand errors, configuratio
 This helped me understand how an application connects to cloud infrastructure even though application development was not my primary focus.
 
 Overall, this project was created as a hands-on learning project to strengthen my understanding of AWS Cloud infrastructure and to gain practical experience by building, testing, troubleshooting, and documenting the services I learned.
+
+
+## AWS Services Used
+
+- **Amazon VPC** — Created the isolated network for the project.
+- **Subnets** — Used separate public and private subnets.
+- **Internet Gateway** — Provided internet connectivity for public resources.
+- **NAT Gateway** — Allowed resources in private subnets to access the internet outbound.
+- **Route Tables** — Controlled traffic routing between subnets and gateways.
+- **Security Groups** — Controlled network access between the ALB, EC2, and RDS.
+- **Amazon EC2** — Used to run the web application.
+- **Application Load Balancer** — Distributed incoming traffic to EC2 instances.
+- **Auto Scaling Group** — Maintained EC2 instances and replaced unhealthy instances.
+- **Amazon RDS (MySQL)** — Used as the application's database.
+- **IAM** — Used to control access to AWS resources.
+- **CloudWatch** — Used for monitoring and alarms.
+- **SNS** — Used for notifications from CloudWatch.
